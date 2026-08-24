@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">🎮 Game Hub</div>
+    <nav><a href="#">Home</a><a href="#games">Games</a></nav>
+</header>
 
+<section class="hero">
+    <h1>Play Games</h1>
+    <p>Choose a game and start playing.</p>
+    <input id="search" type="text" placeholder="Search games...">
+</section>
+
+<main id="games">
+    <div class="categories">
+        <button onclick="filterGames('All')">All</button>
+        <button onclick="filterGames('Action')">Action</button>
+        <button onclick="filterGames('Arcade')">Arcade</button>
+        <button onclick="filterGames('Sports')">Sports</button>
+        <button onclick="filterGames('Puzzle')">Puzzle</button>
+    </div>
+    <div id="gameGrid" class="game-grid"></div>
+</main>
+
+<footer><p>© 2026 Game Hub</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

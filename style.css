@@ -1,0 +1,26 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#101116;color:white}
+header{height:70px;background:#181a21;display:flex;align-items:center;justify-content:space-between;padding:0 40px;border-bottom:1px solid #292c36}
+.logo{font-size:24px;font-weight:bold}
+nav{display:flex;gap:25px}
+nav a{color:#aaa;text-decoration:none}
+nav a:hover{color:white}
+.hero{text-align:center;padding:70px 20px 50px;background:radial-gradient(circle at center,#252b3b,#101116 65%)}
+.hero h1{font-size:50px;margin-bottom:10px}
+.hero p{color:#aaa;margin-bottom:30px}
+#search{width:min(500px,90%);padding:15px 20px;border:0;border-radius:10px;background:#1c1f28;color:white;font-size:16px;outline:none}
+main{max-width:1200px;margin:auto;padding:35px 20px}
+.categories{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+.categories button{border:0;padding:10px 18px;border-radius:8px;background:#20232d;color:white;cursor:pointer}
+.categories button:hover{background:#343847}
+.game-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}
+.game-card{background:#191b22;border-radius:12px;overflow:hidden;transition:.2s;border:1px solid #252833}
+.game-card:hover{transform:translateY(-5px);border-color:#454b5e}
+.game-image{width:100%;height:140px;object-fit:cover;background:#292c35}
+.game-info{padding:15px}
+.game-info h3{margin-bottom:6px}
+.game-category{color:#888;font-size:13px;margin-bottom:15px}
+.play-button{display:block;width:100%;padding:10px;border-radius:8px;background:#5865f2;color:white;text-align:center;text-decoration:none;font-weight:bold}
+.play-button:hover{background:#4752c4}
+.no-games{text-align:center;color:#777;padding:50px}
+footer{text-align:center;padding:40px;color:#666}
