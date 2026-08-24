@@ -1,6 +1,6 @@
 const games = [
     {
-        name: "Example Game",
+        name: "Game",
         category: "Arcade",
         image: "images/example.svg",
         url: "games/example/index.html"
